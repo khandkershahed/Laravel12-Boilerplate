@@ -1,6 +1,6 @@
-# Laravel Multi-Auth
+# Laravel 12 Boilerplate
 
-Customized Laravel Breeze to support multi-auth (separate admin from user table), and multiple user roles.
+Customized Laravel Breeze to support multi-auth (separate admin from user table), and multiple user roles for Laravel 12.
 
 ## Installation
 
@@ -17,12 +17,6 @@ Customized Laravel Breeze to support multi-auth (separate admin from user table)
 **Generate a new application key:**
 
 `php artisan key:generate`
-
-**Copy Database Seeders from Examples and Edit:**
-
-`cp database/seeders/AdminSeeder.php.example database/seeders/AdminSeeder.php`
-
-`cp database/seeders/UserSeeder.php.example database/seeders/UserSeeder.php`
 
 **Run database migrations:**
 
