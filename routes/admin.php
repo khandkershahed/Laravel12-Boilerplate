@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\Admin\Auth\ConfirmablePasswordController;
 use App\Http\Controllers\Admin\Auth\NewPasswordController;
@@ -41,6 +42,7 @@ Route::group(['middleware' => 'auth:admin', 'prefix' => 'admin', 'as' => 'admin.
 // All Controller
 Route::middleware('auth:admin')->prefix('admin')->name('admin.')->group(function () {
 
+    Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
     //Resource Controller
     Route::resources([
             'brands'         => BrandController::class,

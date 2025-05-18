@@ -135,7 +135,6 @@
 
                                         <div class="m-0">
                                             <h4>Total Product</h4>
-
                                             <span class="text-gray-500 fw-semibold fs-6"></span>
                                         </div>
                                     </div>

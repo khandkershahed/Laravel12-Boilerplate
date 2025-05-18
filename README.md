@@ -8,8 +8,6 @@ Customized Laravel Breeze to support multi-auth (separate admin from user table)
 
 `composer install`
 
-`npm install`
-
 **Copy .env from Example and Edit:**
 
 `cp .env.example .env`
@@ -24,6 +22,6 @@ Customized Laravel Breeze to support multi-auth (separate admin from user table)
 
 ## Usage
 
-Admin Login
+**Admin Login:**
 
 `http://localhost:8000/admin/login`
