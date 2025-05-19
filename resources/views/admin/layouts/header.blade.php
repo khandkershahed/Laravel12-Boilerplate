@@ -208,7 +208,7 @@
                         <div class="my-2 separator"></div>
 
                         <div class="px-5 menu-item">
-                            <a href="{{ route('admin.profile') }}" class="px-5 menu-link">My
+                            <a href="{{ route('admin.profile.edit') }}" class="px-5 menu-link">My
                                 Profile</a>
                         </div>
 
